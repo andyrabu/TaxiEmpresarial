@@ -1,0 +1,41 @@
+#user module label message
+label.user.name = Name
+label.user.username = UserName
+label.user.pwd = Password
+label.user.pwd2 = Confirm Password
+label.user.email = Email
+
+label.user.button.submit = Submit
+
+#Error message
+err.user.username.required = Username is required.<br/>
+err.user.username.length = Username length should be between {0} and {1}.<br/>
+err.user.username.invalid = Username is invalid , it should be a-z, A-Z, 0-9, dash "-" or underscore "_".<br/>
+
+err.user.pwd.required = Password is required.<br/>
+err.user.pwd.length = Password length should be between {0} and {1}.<br/>
+err.user.pwd.invalid = Password is invalid , it should be a-z, A-Z, 0-9.<br/>
+
+err.user.pwd2.notmatch = Confirm password is not match.<br/>
+
+err.user.email.required = Email is required.<br/>
+err.user.email.invalid =  Email address is invalid.<br/>
+
+errors.usuario=Debe ingresar el Nombre del Usuario
+
+ errors.clave=Debe Ingresar la clave del Usuario
+
+ errors.impedir=Usuario inexistente
+
+errors.sede=Debe Ingresar  el nombre de la sede
+errors.direccion=Debe Ingresar la direcion
+errors.telefono=Debe Ingresar el telefono
+
+errors.Empleado=debe ingresar codigo para el Empleado
+errors.CodEmpleado=debe ingresar codigo para el Empleado
+errors.apPaterno=debe ingresar Apellido Paterno para el Empleado
+errors.apMaterno=debe ingresar Apellido Materno para el Empleado
+errors.nombre=debe ingresar Nonbres para el Empleado
+errors.clave=debe ingresar Contrase\u00f1a Paterno para el Empleado
+errors.dni=debe ingresar DNI para el Empleado
+errors.estado=debe ingresar Estado para el Empleado

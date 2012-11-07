@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite failures="0" time="1.028" errors="1" skipped="0" tests="1" name="pe.edu.upc.dew.taxiseguro.dao.UsuarioDaoTest">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="localRepository" value="G:\Perfil\.m2\repository"/>
+    <property name="env.DEFLOGDIR" value="C:\ProgramData\McAfee\DesktopProtection"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.management.compiler" value="HotSpot Client Compiler"/>
+    <property name="env.PROMPT" value="$P$G"/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="env.FP_NO_HOST_CHECK" value="NO"/>
+    <property name="sun.boot.class.path" value="C:\Program Files (x86)\Java\jdk1.7.0_09\jre\lib\resources.jar;C:\Program Files (x86)\Java\jdk1.7.0_09\jre\lib\rt.jar;C:\Program Files (x86)\Java\jdk1.7.0_09\jre\lib\sunrsasign.jar;C:\Program Files (x86)\Java\jdk1.7.0_09\jre\lib\jsse.jar;C:\Program Files (x86)\Java\jdk1.7.0_09\jre\lib\jce.jar;C:\Program Files (x86)\Java\jdk1.7.0_09\jre\lib\charsets.jar;C:\Program Files (x86)\Java\jdk1.7.0_09\jre\lib\jfr.jar;C:\Program Files (x86)\Java\jdk1.7.0_09\jre\classes"/>
+    <property name="env.COMPUTERNAME" value="STUART-PC"/>
+    <property name="env.CommonProgramW6432" value="C:\Program Files\Common Files"/>
+    <property name="env.ALLUSERSPROFILE" value="C:\ProgramData"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.runtime.version" value="1.7.0_09-b05"/>
+    <property name="env.HOMEPATH" value="\Users\Stuart"/>
+    <property name="user.name" value="Stuart"/>
+    <property name="env.QTJAVA" value="C:\Program Files (x86)\Java\jre6\lib\ext\QTJava.zip"/>
+    <property name="nb.show.statistics.ui" value="usageStatisticsEnabled"/>
+    <property name="user.language" value="en"/>
+    <property name="sun.boot.library.path" value="C:\Program Files (x86)\Java\jdk1.7.0_09\jre\bin"/>
+    <property name="env.ILBDIR" value="C:\Program Files (x86)\Common Files\Autodesk Shared\Materials\"/>
+    <property name="java.version" value="1.7.0_09"/>
+    <property name="env.PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 37 Stepping 5, GenuineIntel"/>
+    <property name="env.OnlineServices" value="Online Services"/>
+    <property name="user.timezone" value="America/Bogota"/>
+    <property name="env.TEMP" value="C:\Users\Stuart\AppData\Local\Temp"/>
+    <property name="sun.arch.data.model" value="32"/>
+    <property name="http.nonProxyHosts" value="localhost|127.0.0.1|Stuart-PC"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files (x86)\Java\jdk1.7.0_09\jre\lib\endorsed"/>
+    <property name="env.PROCESSOR_ARCHITEW6432" value="AMD64"/>
+    <property name="env.VSEDEFLOGDIR" value="C:\ProgramData\McAfee\DesktopProtection"/>
+    <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
+    <property name="env.HOMEDRIVE" value="C:"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="51.0"/>
+    <property name="user.country" value="US"/>
+    <property name="jna.boot.library.path" value="C:\Users\Stuart\.netbeans\6.9\var\cache\jna"/>
+    <property name="java.home" value="C:\Program Files (x86)\Java\jdk1.7.0_09\jre"/>
+    <property name="env.PSModulePath" value="C:\Windows\system32\WindowsPowerShell\v1.0\Modules\"/>
+    <property name="env.APPDATA" value="C:\Users\Stuart\AppData\Roaming"/>
+    <property name="env.PUBLIC" value="C:\Users\Public"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="env.ComSpec" value="C:\Windows\system32\cmd.exe"/>
+    <property name="env.OS" value="Windows_NT"/>
+    <property name="env.CommonProgramFiles" value="C:\Program Files (x86)\Common Files"/>
+    <property name="os.version" value="6.1"/>
+    <property name="netbeans.system_http_proxy" value="DIRECT"/>
+    <property name="env.ProgramW6432" value="C:\Program Files"/>
+    <property name="https.nonProxyHosts" value="localhost|127.0.0.1|Stuart-PC"/>
+    <property name="sun.awt.keepWorkingSetOnMinimize" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.version" value="23.5-b02"/>
+    <property name="env.USERPROFILE" value="C:\Users\Stuart"/>
+    <property name="user.variant" value=""/>
+    <property name="sun.awt.enableExtraMouseButtons" value="true"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="env.TMP" value="C:\Users\Stuart\AppData\Local\Temp"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="env.ILLDIR" value="C:\Program Files (x86)\Common Files\Autodesk Shared\Materials\"/>
+    <property name="user.script" value=""/>
+    <property name="useJavaUtilZip" value="true"/>
+    <property name="subversion.native.library" value="C:\Program Files\CollabNet\Subversion Client\libsvnjavahl-1.dll"/>
+    <property name="user.home" value="G:\Perfil"/>
+    <property name="env.CM2012DIR" value="C:\Program Files (x86)\Common Files\Autodesk Shared\Materials\"/>
+    <property name="env.ILMDIR" value="C:\Program Files (x86)\Common Files\Autodesk Shared\Materials\"/>
+    <property name="env.ProgramData" value="C:\ProgramData"/>
+    <property name="env.ProgramFiles(x86)" value="C:\Program Files (x86)"/>
+    <property name="env.SESSIONNAME" value="Console"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="env.CLASSPATH" value=".;C:\Program Files (x86)\Java\jre6\lib\ext\QTJava.zip"/>
+    <property name="env.HuluDesktopPath" value="C:\Users\Stuart\AppData\Local\HuluDesktop\instances\0.9.11.1\HuluDesktop.exe"/>
+    <property name="env.CM2013DIR" value="C:\Program Files (x86)\Common Files\Autodesk Shared\Materials\"/>
+    <property name="apple.laf.useScreenMenuBar" value="true"/>
+    <property name="org.xml.sax.driver" value="com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="java.library.path" value="C:\Program Files (x86)\NetBeans 6.9.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\CollabNet\Subversion Client;G:\app\Stuart\product\11.2.0\dbhome_1\bin;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;c:\Program Files (x86)\Common Files\Ulead Systems\MPEG;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;c:\Program Files (x86)\Common Files\Roxio Shared\DLLShared\;c:\Program Files (x86)\Common Files\Roxio Shared\DLLShared\;c:\Program Files (x86)\Common Files\Roxio Shared\12.0\DLLShared\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files\MySQL\MySQL Server 5.5\bin;C:\Program Files (x86)\Rational\common;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files (x86)\Microsoft SQL Server\90\Tools\binn\;C:\Program Files\Microsoft\Web Platform Installer\;."/>
+    <property name="env.NUMBER_OF_PROCESSORS" value="4"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.class.path" value="C:\Program Files (x86)\NetBeans 6.9.1\platform\lib\boot.jar;C:\Program Files (x86)\NetBeans 6.9.1\platform\lib\org-openide-modules.jar;C:\Program Files (x86)\NetBeans 6.9.1\platform\lib\org-openide-util-lookup.jar;C:\Program Files (x86)\NetBeans 6.9.1\platform\lib\org-openide-util.jar;C:\Program Files (x86)\NetBeans 6.9.1\platform\lib\locale\boot_ja.jar;C:\Program Files (x86)\NetBeans 6.9.1\platform\lib\locale\boot_pt_BR.jar;C:\Program Files (x86)\NetBeans 6.9.1\platform\lib\locale\boot_zh_CN.jar;C:\Program Files (x86)\NetBeans 6.9.1\platform\lib\locale\org-openide-modules_ja.jar;C:\Program Files (x86)\NetBeans 6.9.1\platform\lib\locale\org-openide-modules_pt_BR.jar;C:\Program Files (x86)\NetBeans 6.9.1\platform\lib\locale\org-openide-modules_zh_CN.jar;C:\Program Files (x86)\NetBeans 6.9.1\platform\lib\locale\org-openide-util-lookup_ja.jar;C:\Program Files (x86)\NetBeans 6.9.1\platform\lib\locale\org-openide-util-lookup_pt_BR.jar;C:\Program Files (x86)\NetBeans 6.9.1\platform\lib\locale\org-openide-util-lookup_zh_CN.jar;C:\Program Files (x86)\NetBeans 6.9.1\platform\lib\locale\org-openide-util_ja.jar;C:\Program Files (x86)\NetBeans 6.9.1\platform\lib\locale\org-openide-util_pt_BR.jar;C:\Program Files (x86)\NetBeans 6.9.1\platform\lib\locale\org-openide-util_zh_CN.jar;C:\Program Files (x86)\Java\jdk1.7.0_09\lib\dt.jar;C:\Program Files (x86)\Java\jdk1.7.0_09\lib\tools.jar"/>
+    <property name="sun.java.command" value="C:\Users\Stuart\AppData\Local\Temp\surefirebooter4285699743423743712.jar C:\Users\Stuart\AppData\Local\Temp\surefire2444752851855295019tmp C:\Users\Stuart\AppData\Local\Temp\surefire2879226708734574544tmp"/>
+    <property name="env.PCBRAND" value="Pavilion"/>
+    <property name="sun.java2d.noddraw" value="true"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="jdk.home" value="C:\Program Files (x86)\Java\jdk1.7.0_09"/>
+    <property name="env.windir" value="C:\Windows"/>
+    <property name="env.LOGONSERVER" value="\\STUART-PC"/>
+    <property name="org.openide.specification.version" value="6.2"/>
+    <property name="java.vm.specification.version" value="1.7"/>
+    <property name="env.PROCESSOR_ARCHITECTURE" value="x86"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="env.ProgramFiles" value="C:\Program Files (x86)"/>
+    <property name="surefire.test.class.path" value="G:\UPC\Sistemas Distribuidos\Proyecto\UPCDEW_TaxiEmpresarial_ITaxi_Maven_\target\test-classes;G:\UPC\Sistemas Distribuidos\Proyecto\UPCDEW_TaxiEmpresarial_ITaxi_Maven_\target\classes;G:\Perfil\.m2\repository\javax\servlet\jstl\1.2\jstl-1.2.jar;G:\Perfil\.m2\repository\javax\servlet\servlet-api\2.5\servlet-api-2.5.jar;G:\Perfil\.m2\repository\javax\servlet\jsp\jsp-api\2.1\jsp-api-2.1.jar;G:\Perfil\.m2\repository\junit\junit\4.8.1\junit-4.8.1.jar;G:\Perfil\.m2\repository\mysql\mysql-connector-java\5.0.5\mysql-connector-java-5.0.5.jar;G:\Perfil\.m2\repository\org\apache\struts\struts-core\1.3.8\struts-core-1.3.8.jar;G:\Perfil\.m2\repository\antlr\antlr\2.7.2\antlr-2.7.2.jar;G:\Perfil\.m2\repository\commons-beanutils\commons-beanutils\1.7.0\commons-beanutils-1.7.0.jar;G:\Perfil\.m2\repository\commons-logging\commons-logging\1.0.4\commons-logging-1.0.4.jar;G:\Perfil\.m2\repository\commons-chain\commons-chain\1.1\commons-chain-1.1.jar;G:\Perfil\.m2\repository\commons-digester\commons-digester\1.8\commons-digester-1.8.jar;G:\Perfil\.m2\repository\commons-validator\commons-validator\1.3.1\commons-validator-1.3.1.jar;G:\Perfil\.m2\repository\oro\oro\2.0.8\oro-2.0.8.jar;G:\Perfil\.m2\repository\org\apache\struts\struts-taglib\1.3.10\struts-taglib-1.3.10.jar;G:\Perfil\.m2\repository\org\apache\struts\struts-extras\1.3.10\struts-extras-1.3.10.jar;"/>
+    <property name="java.io.tmpdir" value="C:\Users\Stuart\AppData\Local\Temp\"/>
+    <property name="env.PROCESSOR_REVISION" value="2505"/>
+    <property name="env.CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="env.SystemRoot" value="C:\Windows"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="x86"/>
+    <property name="java.ext.dirs" value="C:\Program Files (x86)\Java\jdk1.7.0_09\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="user.dir" value="G:\UPC\Sistemas Distribuidos\Proyecto\UPCDEW_TaxiEmpresarial_ITaxi_Maven_"/>
+    <property name="env.LOCALAPPDATA" value="C:\Users\Stuart\AppData\Local"/>
+    <property name="line.separator" value="
+"/>
+    <property name="apple.awt.graphics.UseQuartz" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) Client VM"/>
+    <property name="env.PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
+    <property name="env.Path" value="C:\Program Files\CollabNet\Subversion Client;G:\app\Stuart\product\11.2.0\dbhome_1\bin;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;c:\Program Files (x86)\Common Files\Ulead Systems\MPEG;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;c:\Program Files (x86)\Common Files\Roxio Shared\DLLShared\;c:\Program Files (x86)\Common Files\Roxio Shared\DLLShared\;c:\Program Files (x86)\Common Files\Roxio Shared\12.0\DLLShared\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files\MySQL\MySQL Server 5.5\bin;C:\Program Files (x86)\Rational\common;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files (x86)\Microsoft SQL Server\90\Tools\binn\;C:\Program Files\Microsoft\Web Platform Installer\"/>
+    <property name="basedir" value="G:\UPC\Sistemas Distribuidos\Proyecto\UPCDEW_TaxiEmpresarial_ITaxi_Maven_"/>
+    <property name="maven.mode.standalone" value="true"/>
+    <property name="env.USERNAME" value="Stuart"/>
+    <property name="env.SystemDrive" value="C:"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="netbeans.execution" value="true"/>
+    <property name="env.VS100COMNTOOLS" value="C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\Tools\"/>
+    <property name="env.USERDOMAIN" value="Stuart-PC"/>
+    <property name="java.specification.version" value="1.7"/>
+    <property name="env.Platform" value="MCD"/>
+    <property name="env.PROCESSOR_LEVEL" value="6"/>
+  </properties>
+  <testcase time="0.92" classname="pe.edu.upc.dew.taxiseguro.dao.UsuarioDaoTest" name="elUsuarioConUsernameAdminTieneNombreAdministrador">
+    <error message="Error al obtener Connectionf" type="java.lang.IllegalStateException">java.lang.IllegalStateException: Error al obtener Connectionf
+	at pe.edu.upc.dew.taxiseguro.util.JdbcUtils.getConnection(JdbcUtils.java:24)
+	at pe.edu.upc.dew.taxiseguro.dao.UsuarioWebDaoJdbc.getUsuarioPorUsername(UsuarioWebDaoJdbc.java:16)
+	at pe.edu.upc.dew.taxiseguro.dao.UsuarioDaoTest.elUsuarioConUsernameAdminTieneNombreAdministrador(UsuarioDaoTest.java:12)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:44)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:41)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:76)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:193)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:52)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:191)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:42)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:184)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:236)
+	at org.apache.maven.surefire.junit4.JUnit4TestSet.execute(JUnit4TestSet.java:62)
+	at org.apache.maven.surefire.suite.AbstractDirectoryTestSuite.executeTestSet(AbstractDirectoryTestSuite.java:140)
+	at org.apache.maven.surefire.suite.AbstractDirectoryTestSuite.execute(AbstractDirectoryTestSuite.java:127)
+	at org.apache.maven.surefire.Surefire.run(Surefire.java:177)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.apache.maven.surefire.booter.SurefireBooter.runSuitesInProcess(SurefireBooter.java:338)
+	at org.apache.maven.surefire.booter.SurefireBooter.main(SurefireBooter.java:997)
+Caused by: java.sql.SQLException: Access denied for user &apos;root&apos;@&apos;localhost&apos; (using password: YES)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:946)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2941)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:868)
+	at com.mysql.jdbc.MysqlIO.secureAuth411(MysqlIO.java:3340)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1238)
+	at com.mysql.jdbc.Connection.createNewIO(Connection.java:2743)
+	at com.mysql.jdbc.Connection.&lt;init&gt;(Connection.java:1553)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:266)
+	at java.sql.DriverManager.getConnection(DriverManager.java:579)
+	at java.sql.DriverManager.getConnection(DriverManager.java:221)
+	at pe.edu.upc.dew.taxiseguro.util.JdbcUtils.getConnection(JdbcUtils.java:22)
+	... 28 more
+</error>
+  </testcase>
+</testsuite>

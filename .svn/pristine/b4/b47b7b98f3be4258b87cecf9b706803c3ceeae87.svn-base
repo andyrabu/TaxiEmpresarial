@@ -1,0 +1,88 @@
+
+-- =============================================
+-- Cargar Datos de Prueba
+-- =============================================
+
+-- Tabla: Cliente
+
+INSERT INTO cliente  VALUES( '009999', '99999999999', 'Banco BCP', 'Ernesto Enrique Paredes Espinoza' );
+INSERT INTO cliente  VALUES( '000001', '90000000001', 'Banco InterBank', 'Carlos Alberto Trujillo');
+INSERT INTO cliente  VALUES( '000002', '90000000002', 'Banco Continental', 'Lidia Carmen Lima' );
+INSERT INTO cliente  VALUES( '000003', '90000000003', 'Banco Financiero', 'Claudia Olavide Jodida' );
+INSERT INTO cliente  VALUES( '000004', '90000000004', 'Banco HSBC', 'Angelica Sotomayor Mejia');
+
+-- Tabla: Usuario
+
+INSERT INTO usuario VALUES( '009999', '000001', 'Romero', 'Castillo', 'Carlos Alberto', 'Trujillo', '07448786', '1' );
+INSERT INTO usuario VALUES( '000001',  '000002', 'Castro', 'Vargas', 'Lidia', 'lcastro', '07777776', '1' );
+INSERT INTO usuario VALUES( '000002', '000001','Reyes', 'Ortiz', 'Connie', 'aortiz', '06666667', '1' );
+INSERT INTO usuario VALUES( '000003', '000002', 'Ramos', 'Garibay', 'Angelica', 'aramos', '08989898', '1');
+INSERT INTO usuario VALUES( '000004', '000001', 'Ruiz', 'Zabaleta', 'Claudia', 'cvalencia', '09898989', '1' );
+
+
+-- Tabla: Distrito
+
+insert into distrito values ( '0001', 'Lima Cercado' );
+insert into distrito values ( '0002', 'San Isidro' );
+insert into distrito values ( '0003', 'Miraflores' );
+insert into distrito values ( '0004', 'Magdalena' );
+insert into distrito values ( '0005', 'San Miguel' );
+insert into distrito values ( '0006', 'Jesus Maria' );
+insert into distrito values ( '0007', 'Publo Libre' );
+insert into distrito values ( '0008', 'San Martin' );
+insert into distrito values ( '0009', 'Los Olivos' );
+
+
+-- Tabla: Parametros
+
+insert into parametro values ( 10.00 );
+
+
+-- Tabla: Sede
+
+insert into sede values ( '009999','000001', 'Av. Pardo 345', '5839051', '0002' );
+insert into sede values ( '009999','000002', 'Jr. Mini Rivas 543', '5671324', '0008' );
+insert into sede values ( '000001','000001', 'Av. Pardo 345', '5839051', '0002' );
+insert into sede values ( '000001','000002', 'Jr. Mini Rivas 543', '1324124', '0008' );
+insert into sede values ( '000001','000003', 'Av. San Martin 345', '5675670', '0009' );
+insert into sede values ( '000001','000004', 'Av. Rivaguero 666', '5674321', '0001' );
+
+
+-- Tabla: Unidad
+
+insert into unidad values('100001','002001','I60426','Segura Acosta, Filomeno');
+insert into unidad values('100002','002002','F60436','Acosta Acosta, Sergio');
+insert into unidad values('100003','002003','G60446','Mamani Pumacahua, Felipe');
+insert into unidad values('100004','002004','H60456','Maradona Acosto, Francisco');
+insert into unidad values('100005','002005','K60466','Rogriguez Mamani, Felix');
+
+
+-- Tabla: Reserva
+
+insert into reserva values( '009999', '000001', '000001', '100001',  '20101108', 55.60, '1' );
+insert into reserva values( '009999', '000001', '000002', '100002',  '20101109', 70.00, '1' ); 
+insert into reserva values( '009999', '000001', '000003', '100004',  '20101109', 170.00, '1' );
+insert into reserva values( '009999', '000001', '000004', '100005',  '20101109', 100.00, '1' );
+
+
+-- Tabla: ReservaCede
+
+insert into reservacede values( '009999', '000001', '000001', '000001', 20.60 );
+insert into reservacede values( '009999', '000001', '000001', '000002', 35.00 );
+insert into reservacede values( '009999', '000001', '000002', '000002', 70,00 );
+insert into reservacede values( '009999', '000001', '000003', '000002', 100.00);
+insert into reservacede values( '009999', '000001', '000003', '000001',  70.00);
+insert into reservacede values( '009999', '000001', '000004', '000001', 100.00);
+
+
+-- Tabla: Servicio
+
+insert into servicio values( '009999', '000001', '000001', '100001',  '20101108', 55.60 );
+insert into servicio values( '009999', '000001', '000002', '100002',  '20101109', 70.00 ); 
+
+
+
+
+
+
+
