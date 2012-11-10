@@ -1,0 +1,35 @@
+Full comandos documentados:
+
+$git add -- all		: Añadir todos los archivos.
+$git add *.txt		: Añadir todos los archivos txt en el directorio actual.
+$git add docs/*.txt   	: Añadir archivos txt del directorio docs
+$git add docs/ 		: Añadir todos loa archivos del directorio docs
+$git add "*.txt"	: Añadir todos los txt del proyecto.
+
+$git reset --soft HEAD 		: Deshace el ultimo commit y pone todos los archivos en Staging area.
+$git commit --amend -m "mensaje": Cambia el ultimo commit y agrega la diferencia.
+$git reset --hard HEAD^		: Deshace el ultimo commit y todos los cambios.
+$git reset --hard HEAD^^	: Deshace los 2 ultimos commit y todos los cambios.
+!![NO HACER ESTO DESPUES DE UN PUSH]
+
+$git remote add <name> <address>: Añadir nuevos remotes.
+$git remote rm <name>		: Eliminar remotes
+$git push -u <name> <branch>	: Para hacer push a remotes.
+     				  [el branch es denominado usualmente master]
+
+$git status 		: ver el estado de los archivos, commits y otros.
+$git commit -m "mensaje": llevar al staging area
+
+$git diff 		: sin pasar el staging, muestra las diferencias desde el ultimo commit
+			  + añadidos y -eliminados
+$git diff -- staged	: una vez commiteado, muestra diferencias que seran comiteadas.
+$git reset HEAD <file>	: Sacar del staging area, haciendo referencia al ultimo commit
+$git checkout -- <file>	: Descartar commit realizador y en bandeja para comitear es vacio.
+$git commit -a -m "todo staging	: Comitear en pasar por el staging area
+
+$git remote -v 		: lista los remote que estas conectado o los origin
+$git clone <url github><carpeta>: Hace una copia del url hacia una carpeta. El parametro <carpeta> s pued omitir.
+
+
+
+
